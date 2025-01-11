@@ -15,5 +15,5 @@ CREATE TABLE example2 (
     description VARCHAR(255),
     PRIMARY KEY(id),
     example_id int NOT NULL, 
-    FOREIGN KEY (example_id) REFERENCES example(id)
+    FOREIGN KEY (example_id) REFERENCES example(id) ON DELETE CASCADE
 );
