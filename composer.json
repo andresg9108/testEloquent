@@ -1,0 +1,14 @@
+{
+    "name": "felip/test-eloquent",
+    "license": "MIT",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "Andrés González",
+            "email": "andresg9108@outlook.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^8.83"
+    }
+}
